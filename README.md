@@ -187,6 +187,4 @@ No other code changes are needed — `--tool`, `--list-tools`, `--check`, and `-
 - File-type detection is extension-based only (plus a small set of exact filenames like `Gemfile`). It does not inspect file contents, so a `.h` file is always counted as C/C++, even if it's actually Objective-C++.
 - Language/extension lists are a practical approximation for capacity estimation — not a guarantee of what a given vendor's scanner will actually pick up. Always cross-check against your tool's current, version-specific documentation before using these numbers for licensing or scan-scope decisions.
 
-## License
 
-Add a license of your choice (e.g. MIT) here before publishing.
