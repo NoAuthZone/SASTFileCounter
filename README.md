@@ -27,7 +27,7 @@ Before kicking off a SAST scan (or comparing scan scope across tools / sizing a 
 Just download the script — there's nothing to install.
 
 ```bash
-curl -O https://raw.githubusercontent.com/<your-org>/<your-repo>/main/SASTFileCounter.py
+curl -O https://github.com/NoAuthZone/SASTFileCounter/blob/main/SASTFileCounter.py
 python3 SASTFileCounter.py --help
 ```
 
